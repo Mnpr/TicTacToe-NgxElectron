@@ -3,6 +3,8 @@
 Dependencies Manual
 
 ```
+npm install -g @angular/cli
+
 npm install --save-dev ngx-electron
 
 npm install --save-dev electron

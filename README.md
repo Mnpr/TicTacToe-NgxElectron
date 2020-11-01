@@ -1,4 +1,4 @@
-# AngularElectron
+# Tic-Tac-Toe Desktop App ( NgxElectron )
 
 Dependencies Manual
 

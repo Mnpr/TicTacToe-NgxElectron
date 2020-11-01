@@ -9,7 +9,7 @@ import { ElectronService } from 'ngx-electron';
 
 export class AppComponent {
 
-  title = 'angular-electron';
+  title = 'Tic-Tac-Toe';
   versions = { node: '', chrome: '', electron: ''};
 
   constructor(private _electronService: ElectronService){

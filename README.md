@@ -1,5 +1,7 @@
 # Tic-Tac-Toe Desktop App ( NgxElectron )
 
+![](src/assets/tictac_v1.jpg)
+
 Dependencies Manual
 
 ```

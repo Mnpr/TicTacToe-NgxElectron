@@ -11,8 +11,10 @@ function createWindow() {
         width: 800,
         height: 600
     });
+    console.log("before app");
     // Load the angular app.
-    win.loadFile(app_root_path_1.resolve('dist/index.html'));
+    win.webContents.loadFile(app_root_path_1.resolve('dist/index.html'));
+    console.log("after app");
     // Emitted when the window is closed.
     win.on('closed', function () {
         // Dereference the window object, usually you would store windows

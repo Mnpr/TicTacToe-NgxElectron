@@ -14,7 +14,7 @@ npm install --save-dev electron
 npm install --save-dev app-root-path
 ```
 
-Dependencies with NPM
+Dependencies `package.json` with NPM
 
 ```
 npm install

@@ -11,9 +11,10 @@ function createWindow () {
     width: 800,
     height: 600
   });
-
+  
   // Load the angular app.
-  win.loadFile(resolve('dist/index.html'));
+  win.webContents.loadFile(resolve('dist/index.html'));
+  console.log("after app")
 
   // Emitted when the window is closed.
   win.on('closed', () => {
